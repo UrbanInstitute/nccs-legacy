@@ -12,3 +12,8 @@ Archived files from old NCCS data website 'nccs-data.urban.org'.
 
 * https://urbaninstitute.github.io/nccs-legacy/dictionary/ntee/ntee.html
 * https://urbaninstitute.github.io/nccs-legacy/dictionary/ntee/ntee-history.html
+
+## Sector Briefs
+
+* https://urbaninstitute.github.io/nccs-legacy/briefs/sector-brief-2019.html
+* https://urbaninstitute.github.io/nccs-legacy/briefs/sector-brief-2018.html

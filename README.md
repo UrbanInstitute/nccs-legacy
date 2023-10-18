@@ -10,8 +10,8 @@ Archived files from old NCCS data website 'nccs-data.urban.org'.
 
 ## NTEE Code Table
 
-* https://urbaninstitute.github.io/nccs-legacy/dictionary/ntee/ntee.html
-* https://urbaninstitute.github.io/nccs-legacy/dictionary/ntee/ntee-history.html
+* https://urbaninstitute.github.io/nccs-legacy/ntee/ntee.html
+* https://urbaninstitute.github.io/nccs-legacy/ntee/ntee-history.html
 
 ## Sector Briefs
 

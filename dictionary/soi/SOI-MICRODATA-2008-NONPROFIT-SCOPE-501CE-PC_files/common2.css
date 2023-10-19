@@ -1,0 +1,169 @@
+body {
+	color: black; font-size: 14px;
+}
+
+h1, h1 a, h2,  h2 a, h3, h3 a, h4, h4 a, b {
+    color : #30416F;
+	font-family: Lucida Grande, Arial, sans-serif;
+}
+h1 a, h2 a, h3 a, h4 a {
+    text-decoration:none;
+}
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover {
+    text-decoration:underline;
+}
+h1 a.anchor:hover, h2 a.anchor:hover, h3 a.anchor:hover, h4 a.anchor:hover {
+    text-decoration:none;
+}
+h1 {
+	margin-bottom:10px;    
+	font-size: 23px;
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-weight: bold; 
+	margin-top:15px; 
+	margin-bottom:5px;
+}
+h4 {
+	margin-top: 12px;
+}
+p {
+	line-height:150%; color: black; 
+}
+a {
+    color : #480175;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+li.menuBox {
+	list-style-type: 
+	none; margin-left:0px; 
+	color:black; 
+	padding-left:0px; 
+	font-weight: normal; 
+	font-size:12px; 
+	margin-top:0px; 
+	line-height:140%; 
+	text-indent: 0px; 
+	padding-left: 5px;
+	margin-bottom: 8px;
+}
+li.menuBox b {
+	font-size: 14px;
+	margin-bottom:7px;
+	margin-left:-5px;
+}
+ul.menuBox {
+	/* margin-left:12px; */ 
+	color:black; 
+	padding-left:0px; 
+	margin-top:2px;
+}
+#menuBox {
+/*
+	float:right; 
+	margin-left: 10px; 
+	margin-top:10px; 
+	padding-bottom:0px; 
+	width:300px; 
+	padding: 20px 15px;
+	background-color: #E3E3E3;
+*/
+}
+#menuBox a {
+	color: #30416F;
+}
+#menuBox a:hover {
+	color: red; 
+	text-decoration:underline;
+}
+#cicGraphic {
+	float:right;
+	position:relative; 
+	display:inline;
+	padding: 10px 15px 10px 0px;
+}
+/*
+
+use for knowledgebase
+
+Then please use specitivity ie #knowledgebase th  You are setting every th in the entire application!
+
+
+*/
+
+.nccs_heading {
+	color: #fff;
+	background-color: #080808;
+	padding-bottom: 17px;
+	padding-left: 5px;
+}
+
+.nccs_header {
+	color: #fff;
+	padding: 5px;
+}
+
+.nccs_subheading {
+	background-color: #0396d1;
+}
+
+.Data {
+	padding:6px;
+}
+
+.PlaqueHeader {
+	color: #fff;
+}
+th.PlaqueHeader {
+	background-color: #000;
+}
+
+td.item {
+	vertical-align: top;
+}
+a.item2 {
+	font-weight: normal; 
+	line-height: 150%;
+}
+th { 
+	background : #0396d1; 
+	color: #fff; 
+	font-weight: normal; 
+	padding-top: 5px;
+	padding-bottom:5px; 
+	padding-left:3px; 
+	margin-bottom:5px; 
+}
+
+#mapyourowndata p {
+	color: black; 
+	padding-top: 15px;
+}
+#mapyourowndata h1 {
+	color: black; 
+	padding-top: 15px;
+}
+
+.breadcrumb, .breadcrumbs {
+	font-size: 10px;
+	color: #666;
+	margin-bottom:10px;
+	display:block;
+	text-align: left;
+}
+
+.disabled {
+	font-style:italic;
+	color: #999;
+}
+
+#cicGo {
+	float:right;
+}

@@ -678,43 +678,43 @@ input.step1, input.step2, input.step3, input.step4, input.step5, input.step6, in
 	cursor: pointer;
 }
 input#submit2, input#submit2Top {
-	background-image: url('../communityplatform/public/images/community/ct/finance/rightArrow.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/rightArrow.png);
 }
 input#cancelBtn {
-	background-image: url('../communityplatform/public/images/community/ct/finance/block.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/block.png);
 }
 input#prevBtn, input#prevBtnTop {
-	background-image: url('../communityplatform/public/images/community/ct/finance/leftArrow.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/leftArrow.png);
 }
 input.step1 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum1.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum1.png);
 }
 input.step2 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum2.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum2.png);
 }
 input.step3 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum3.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum3.png);
 }
 input.step4 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum4.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum4.png);
 }
 input.step5 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum5.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum5.png);
 }
 input.step6 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum6.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum6.png);
 }
 input.step7 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum7.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum7.png);
 }
 input.step8 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum8.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum8.png);
 }
 input.step9 {
-	background-image: url('../communityplatform/public/images/community/ct/finance/stepNum9.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/stepNum9.png);
 }
 input.backToStepOne {
-	background-image: url('../communityplatform/public/images/community/ct/finance/backToStepOne.png.html');
+	background-image: url(../communityplatform/public/images/community/ct/finance/backToStepOne.png);
 	padding-top: 41px;
 	font-size: 10px;
 	margin-left:20px;

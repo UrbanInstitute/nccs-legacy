@@ -132,3 +132,62 @@ def file_reorg(series, archive_folder):
                 f.write(dd_page.content)
 
     return("HTML saved")
+
+def postprocessing(series, archive_folder):
+    """
+    Copy folders needed for website replication in github repository
+    """
+    series_dir = f"{archive_folder}/{series.lower()}"
+    pywebcopy_dir = series_dir + "/pywebcopy_archive/"
+    html_dir = series_dir + f"/{series.lower()}_archive_html/"
+    pywebcopy_foldernames = os.listdir(pywebcopy_dir)
+
+    cp_dic = {"root": ["/ajax.googleapis.com/",
+                       "/fonts.googleapis.com/",
+                       "/fonts.gstatic.com/",
+                       "/maxcdn.bootstrapcdn.com/"],
+              "nccs-data.urban.org/": ["communityplatform/",
+                                       "css/",
+                                       "fonts/",
+                                       "img/",
+                                       "favicon.ico"]}   
+    if archive_folder == "dictionary": cp_dic["nccs-data.urban.org/"].append("NCCS/")
+
+    for py_f in pywebcopy_foldernames:
+
+        try:
+
+            for dir in cp_dic["root"]:
+
+                try: 
+                    shutil.copytree(pywebcopy_dir + py_f + dir, 
+                                series_dir + dir,
+                                dirs_exist_ok = True)
+                except:
+                    shutil.copytree(pywebcopy_dir + py_f + dir, 
+                                series_dir + dir,
+                                dirs_exist_ok = False)                    
+           
+            for dir in cp_dic["nccs-data.urban.org/"]:
+                if dir != "favicon.ico":
+                    try:
+                        shutil.copytree(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
+                                        html_dir + dir,
+                                        dirs_exist_ok = True)
+                    except:
+                        shutil.copytree(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
+                                    html_dir + dir,
+                                    dirs_exist_ok = False)
+
+                else:
+                    shutil.copy(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
+                                html_dir + dir)
+
+            break
+
+        except:
+
+            raise Warning(f"""Not all files present in {py_f}, 
+                              Moving to next folder in pywebcopy directory""")
+        
+    return("Postprocessing complete")

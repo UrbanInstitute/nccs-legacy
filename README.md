@@ -19,6 +19,20 @@ Example Links:
 
 To explore the full table of links click [here](https://github.com/UrbanInstitute/nccs-legacy/blob/main/Archive.md)
 
+## Replicating archival process
+
+The full code for replication is available in the [py folder](https://github.com/UrbanInstitute/nccs-legacy/tree/main/py).
+
+Replication workflow:
+
+```
+pip install -r requirements.txt
+python archive.py
+python website.table.py
+```
+
+Clone the repo and run the above code from inside the [py folder](https://github.com/UrbanInstitute/nccs-legacy/tree/main/py).
+
 ## NTEE Code Table
 
 * https://urbaninstitute.github.io/nccs-legacy/ntee/ntee.html

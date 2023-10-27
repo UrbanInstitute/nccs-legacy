@@ -28,7 +28,7 @@ Replication workflow:
 ```
 pip install -r requirements.txt
 python archive.py
-python website.table.py
+python website_table.py
 ```
 
 Clone the repo and run the above code from inside the [py folder](https://github.com/UrbanInstitute/nccs-legacy/tree/main/py).

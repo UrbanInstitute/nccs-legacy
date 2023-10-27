@@ -1,11 +1,12 @@
 # nccs-legacy
 
-Archived files from old NCCS data website 'nccs-data.urban.org'. 
+A repository containing archived files from the old NCCS data website 'https://nccs-data.urban.org/'. 
 
-## Data Dictionary Files
+## File Structure
 
-* https://urbaninstitute.github.io/nccs-legacy/dictionary/core/CORE-2013-SCOPE-501C3-CHARITIES-PZ
-
+| Old Page  | Old URL | New Link | Remarks
+| ------------- | ------------- |
+| Data Page  | https://nccs-data.urban.org/index.php  | https://urbaninstitute.github.io/nccs-legacy/data/home/home_archive_html/IRS_Statistics_of_Income_Division_Exempt_Organizations_Sample_Files.html | |
 
 ## NTEE Code Table
 

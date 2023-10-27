@@ -13,9 +13,10 @@ def pyweb_archive(series, folder):
     # Load in dictionary
     pywebcopy_dir = f"{folder}/{series.lower()}/pywebcopy_archive"
 
-    with open(f"dictionary/{series.lower()}/{series.lower()}_urls.json") as f:
-        url_dic = json.load(f)
 
+    with open(f"{folder}/{series.lower()}/{series.lower()}_urls.json") as f:
+        url_dic = json.load(f)
+    
     for dd, url in url_dic.items():
         try:
             save_webpage(

@@ -1,5 +1,6 @@
 import os
 import logging
+import json
 
 from archive_setup import folder_setup
 from archive_dd_scraper import archive_dd_scraper
@@ -12,14 +13,24 @@ logger.basicConfig(filename="pywebcopy.log",
                     level=logging.WARNING,
                     filemode="w")
 
-DIRS = ["dictionary", "data"]
+DIRS = ["dictionary", "data", "homepages"]
 SUBDIRS = ["home", "bmf", "core", "trend", "digitizeddata", "misc", "soi"]
+
+HOMEPAGE_DIC = {"DATA": "https://nccs-data.urban.org/index.php",
+                "DATA DICTIONARIES": "https://nccs-data.urban.org/data-dictionaries.php"}
 
 
 if __name__ == "__main__":
     os.chdir("..")
 
     folder_setup(dirs = DIRS, subdirs = SUBDIRS)
+
+    with open("homepages/home/home_urls.json", "w+") as f:
+        json.dump(HOMEPAGE_DIC, f)
+
+    pyweb_archive(series = "home", folder = "homepages")
+    file_reorg(series = "home", archive_folder = "homepages")
+    postprocessing(series = "home", archive_folder = "homepages")
     
     archive_dd_scraper(series = "home", folder = "data")
     pyweb_archive(series = "home", folder = "data")

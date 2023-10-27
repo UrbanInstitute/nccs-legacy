@@ -142,52 +142,51 @@ def postprocessing(series, archive_folder):
     html_dir = series_dir + f"/{series.lower()}_archive_html/"
     pywebcopy_foldernames = os.listdir(pywebcopy_dir)
 
-    cp_dic = {"root": ["/ajax.googleapis.com/",
-                       "/fonts.googleapis.com/",
-                       "/fonts.gstatic.com/",
-                       "/maxcdn.bootstrapcdn.com/"],
-              "nccs-data.urban.org/": ["communityplatform/",
-                                       "css/",
-                                       "fonts/",
-                                       "img/",
-                                       "favicon.ico"]}   
-    if archive_folder == "dictionary": cp_dic["nccs-data.urban.org/"].append("NCCS/")
+    int_dir = "nccs-data.urban.org"       
 
     for py_f in pywebcopy_foldernames:
 
-        try:
+        ext_dirs = os.listdir(f"{pywebcopy_dir + py_f}")
+        
+        for dir in ext_dirs: 
 
-            for dir in cp_dic["root"]:
+            src = pywebcopy_dir + py_f + "/" + dir + "/"
+            dest = series_dir + "/" + dir + "/"
+            
+            if dir != int_dir:
 
-                try: 
-                    shutil.copytree(pywebcopy_dir + py_f + dir, 
-                                series_dir + dir,
-                                dirs_exist_ok = True)
+                try: shutil.copytree(src, dest, dirs_exist_ok = True)
+
                 except:
-                    shutil.copytree(pywebcopy_dir + py_f + dir, 
-                                series_dir + dir,
-                                dirs_exist_ok = False)                    
+
+                    try: shutil.copytree(src, dest, dirs_exist_ok = False)
+                    except: raise Warning(f"{pywebcopy_dir + py_f + dir} not found")
+
+            elif dir == int_dir:
+                
+                root_dir = pywebcopy_dir + py_f + "/" + int_dir
+                int_dirs = os.listdir(root_dir)                    
            
-            for dir in cp_dic["nccs-data.urban.org/"]:
-                if dir != "favicon.ico":
-                    try:
-                        shutil.copytree(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
-                                        html_dir + dir,
-                                        dirs_exist_ok = True)
-                    except:
-                        shutil.copytree(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
-                                    html_dir + dir,
-                                    dirs_exist_ok = False)
+                for dir in int_dirs:
 
-                else:
-                    shutil.copy(pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir, 
-                                html_dir + dir)
+                    src = pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir
+                    dest = html_dir + dir
 
-            break
+                    if "." not in dir:
+                        
+                        try: shutil.copytree(src, dest, dirs_exist_ok = True)
+                        
+                        except:
 
-        except:
+                            try:
+                                shutil.copytree(src, dest, dirs_exist_ok = False)
+                                
+                            except:
+                                warn_dir = pywebcopy_dir + py_f + "/nccs-data.urban.org/" + dir
+                                raise Warning(f"{warn_dir} not found")
 
-            raise Warning(f"""Not all files present in {py_f}, 
-                              Moving to next folder in pywebcopy directory""")
+                    elif dir == "favicon.ico": shutil.copy(src, dest)
+
+        break
         
     return("Postprocessing complete")

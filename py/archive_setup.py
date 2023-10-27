@@ -10,7 +10,7 @@ def folder_setup(dirs, subdirs):
 
         for subdir in subdirs:
 
-            if (dir == "dictionary") or ((dir == "data") & (subdir == "home")):
+            if (dir == "dictionary") or ((dir != "dictionary") & (subdir == "home")):
 
                 folders = [f"{dir}/{subdir}",
                            f"{dir}/{subdir}/pywebcopy_archive",

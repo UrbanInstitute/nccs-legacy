@@ -33,13 +33,30 @@ python website_table.py
 
 Clone the repo and run the above code from inside the [py folder](https://github.com/UrbanInstitute/nccs-legacy/tree/main/py).
 
-## NTEE Code Table
+## NTEE Description Tables
 
 * https://urbaninstitute.github.io/nccs-legacy/ntee/ntee.html
 * https://urbaninstitute.github.io/nccs-legacy/ntee/ntee-history.html
 
-## Sector Briefs
+## Example Sector Briefs
 
 * https://urbaninstitute.github.io/nccs-legacy/briefs/sector-brief-2019.html
 * https://urbaninstitute.github.io/nccs-legacy/briefs/sector-brief-2018.html
+
+## Digitized Data Dictionaries (1998-2003)
+
+- [DIG-BALANCE-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-BALANCE-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-FUNCEXP-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-FUNCEXP-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-INCPROD-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-INCPROD-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-MHEADER-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-MHEADER-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-OFFICER-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-OFFICER-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-OTHERIN-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-OTHERIN-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-PROGRAM-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-PROGRAM-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-PURPOSE-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-PURPOSE-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-REVEXPS-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-REVEXPS-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-SCHAEMPS-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-SCHAEMPS-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-SCHAPTS-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-SCHAPTS-1998-2003-501C3-CHARITIES-PZ.html)
+- [DIG-TAXABLE-1998-2003-501C3-CHARITIES-PZ.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/digitizeddata/digitizeddata_archive_html/DIG-TAXABLE-1998-2003-501C3-CHARITIES-PZ.html)
+
+Data is available at: https://nccsdata.s3.us-east-1.amazonaws.com/legacy/digitized/DIG-BALANCE-1998-2003-501C3-CHARITIES-PZ.csv
 

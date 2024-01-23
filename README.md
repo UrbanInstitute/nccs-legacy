@@ -62,14 +62,14 @@ Data is available at: https://nccsdata.s3.us-east-1.amazonaws.com/legacy/digitiz
 
 ## Misc Files
 
-- [ALLEINS-501CX-NONPROFIT-PX.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlALLEINS-501CX-NONPROFIT-PX.html) 
-- [ALLNTEE-501CX-NONPROFIT-PX.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlALLNTEE-501CX-NONPROFIT-PX.html) 
-- [NTEE-NAICS-CROSSWALK.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlNTEE-NAICS-CROSSWALK.html) 
-- [SUPPLEMENTAL-CORE-FINANCIAL-V1.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlSUPPLEMENTAL-CORE-FINANCIAL-V1.html) 
-- [SUPPLEMENTAL-CORE-FINANCIAL-V2.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlSUPPLEMENTAL-CORE-FINANCIAL-V2.html) 
-- [SUPPLEMENTAL-CORE-OFFICERS.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlSUPPLEMENTAL-CORE-OFFICERS.html) 
-- [SUPPLEMENTAL-CORE-PROGRAM.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlSUPPLEMENTAL-CORE-PROGRAM.html) 
-- [SUPPLEMENTAL-CORE.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.htmlSUPPLEMENTAL-CORE.html) 
+- [ALLEINS-501CX-NONPROFIT-PX.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/ALLEINS-501CX-NONPROFIT-PX.html) 
+- [ALLNTEE-501CX-NONPROFIT-PX.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/ALLNTEE-501CX-NONPROFIT-PX.html) 
+- [NTEE-NAICS-CROSSWALK.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/NTEE-NAICS-CROSSWALK.html) 
+- [SUPPLEMENTAL-CORE-FINANCIAL-V1.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-FINANCIAL-V1.html) 
+- [SUPPLEMENTAL-CORE-FINANCIAL-V2.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-FINANCIAL-V2.html) 
+- [SUPPLEMENTAL-CORE-OFFICERS.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-OFFICERS.html) 
+- [SUPPLEMENTAL-CORE-PROGRAM.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE-PROGRAM.html) 
+- [SUPPLEMENTAL-CORE.html](https://urbaninstitute.github.io/nccs-legacy/dictionary/misc/misc_archive_html/SUPPLEMENTAL-CORE.html) 
 
 Data URL: https://nccsdata.s3.us-east-1.amazonaws.com/legacy/misc/ALLEINS-501CX-NONPROFIT-PX.csv
 
